@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# logs
+*.log
+
+# IDE/Editor Specifics
+.vscode/
+.idea/
+
+.DS_Store
+package-lock.json

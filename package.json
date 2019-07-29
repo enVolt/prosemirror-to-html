@@ -1,0 +1,20 @@
+{
+  "name": "prosemirror-to-html-js",
+  "version": "1.0.0",
+  "description": "Takes ProseMirror JSON and outputs HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "prosemirror",
+    "text-editor"
+  ],
+  "author": "Ashwani Agarwal",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
