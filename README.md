@@ -6,7 +6,7 @@ Takes ProseMirror JSON and outputs HTML.
 
 ## Installation
 ```bash
-npm install prosemirror-to-html --save
+npm install prosemirror-to-html-js --save
 ```
 
 ## Usage
