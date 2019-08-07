@@ -10,7 +10,8 @@ class Renderer {
             require("./Nodes/Heading"),
             require("./Nodes/ListItem"),
             require("./Nodes/OrderedList"),
-            require("./Nodes/Paragraph")
+            require("./Nodes/Paragraph"),
+            require("./Nodes/Image")
         ];
         this.marks = [
             require("./Marks/Bold"),
@@ -114,7 +115,9 @@ class Renderer {
             if (item.attrs) {
                 for (let attribute in item.attrs) {
                     const value = item.attrs[attribute];
-                    attrs += ` ${attribute}="${value}"`;
+                    if (value) {
+                        attrs += ` ${attribute}="${value}"`;
+                    }
                 }
             }
 
