@@ -12,7 +12,7 @@ npm install prosemirror-to-html-js --save
 ## Usage
 
 ```js
-const Renderer = require("prosemirror-to-html").Renderer;
+const Renderer = require("prosemirror-to-html-js").Renderer;
 
 const renderer = new Renderer();
 
